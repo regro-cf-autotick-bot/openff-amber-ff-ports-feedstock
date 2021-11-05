@@ -25,10 +25,10 @@ requirements:
 test:
   requires:
     - openff-toolkit
-  files:
-    - test_loadable.py
   imports:
     - openff.amber_ff_ports
+  files:
+    - test_loadable.py
   commands:
     - python test_loadable.py
 
