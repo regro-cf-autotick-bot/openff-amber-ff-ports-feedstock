@@ -14,7 +14,7 @@ Development: https://github.com/openforcefield/openff-amber-ff-ports
 Documentation: https://github.com/openforcefield/openff-amber-ff-ports
 
 The provided OFFXML (force field) files are successive versions
-of a SMIRNOFF port of ff14S, an protein force field from the
+of a SMIRNOFF port of ff14SB, an protein force field from the
 Amber community.
 
 
@@ -64,7 +64,8 @@ conda search openff-amber-ff-ports --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -124,5 +125,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@j-wags](https://github.com/j-wags/)
 * [@mattwthompson](https://github.com/mattwthompson/)
 
