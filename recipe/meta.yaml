@@ -24,8 +24,14 @@ requirements:
     - setuptools
 
 test:
+  requires:
+    - openff.toolkit
+  files:
+    - test_loadable.py
   imports:
     - openff.amber_ff_ports
+  commands:
+    - python test_loadable.py
 
 about:
   home: https://openforcefield.org/
