@@ -1,11 +1,11 @@
-About openff-amber-ff-ports
-===========================
+About openff-amber-ff-ports-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openff-amber-ff-ports-feedstock/blob/main/LICENSE.txt)
 
 Home: https://openforcefield.org/
 
 Package license: CC-BY-4.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openff-amber-ff-ports-feedstock/blob/main/LICENSE.txt)
 
 Summary: Force fields released by the Open Force Field Initiative.
 
