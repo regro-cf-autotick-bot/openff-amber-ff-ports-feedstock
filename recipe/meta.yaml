@@ -1,5 +1,5 @@
 {% set name = "openff-amber-ff-ports" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openforcefield/openff-amber-ff-ports/archive/v{{ version }}.tar.gz
-  sha256: a1246559138e47f44a858bb329658247439ed80a32349638f715046f4432e02c
+  sha256: ca7299f18f6f03d5c67ae5fd4cf170849fbec0975c159eef6998ded931040398
 
 build:
   noarch: python
@@ -19,7 +19,7 @@ requirements:
     - python
     - pip
   run:
-    - python >=3.7
+    - python >=3.9
     - setuptools
 
 test:
