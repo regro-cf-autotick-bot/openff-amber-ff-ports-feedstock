@@ -1,5 +1,5 @@
-from openff.toolkit.typing.engines.smirnoff import ForceField
+from openff.toolkit import ForceField
 
-ForceField("ff14sb_off_impropers_0.0.1.offxml")
-ForceField("ff14sb_off_impropers_0.0.2.offxml")
-ForceField("ff14sb_off_impropers_0.0.3.offxml")
+for improper in [True, False]:
+    for version in range(1, 5):
+        ForceField(f"ff14sb_{'off_impropers_' if improper else ''}0.0.{version}.offxml")
