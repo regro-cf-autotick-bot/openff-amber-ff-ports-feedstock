@@ -11,20 +11,21 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - setuptools
 
 test:
   requires:
     - openff-toolkit
+    - python {{ python_min }}
   imports:
     - openff.amber_ff_ports
   files:
